@@ -1,30 +1,29 @@
-# README
+# Student Record
 
-# System Requirements
-Ruby Version  - 2.7.2
+It is a basic student registration app capable of adding new students,deleting them, editing their names, searching students from database on basis of their emails and sorting them.
 
-Rails Version - 6.1
+## System Requirements
+Ruby - version 2.7.1
 
-PostgreSql - 13.2 for Windows
+Rails - version 6.1
 
-# Steps to Run the code
-Clone this repository in your system and open command line
+PostgreSql - version 13.2 for windows
 
-Follow the following commands
+
+## Running the Project
+
+Clone the repository on your local system and open it in command line. Edit the ```database.yml``` file according to your postgresql configurations.
+
+Run the following commands to start the application
+
+```gem install bundler```
 
 ```bundle install```
 
-```gem bundle install```
-
 ```yarn install```
 
-This will do the basic setup and install all the gem required. After this, setup your postgreSql in your system and keep it running on server.
-
-Edit the ```database.yml``` file in config folder according to your system and run following commands:
-
-```rake dp:setup```
-
-Now, run rails server using:
+```rake db:setup```
 
 ```rails s```
 
+This will make the application backend up and running.
