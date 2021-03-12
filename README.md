@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# System Requirements
+Ruby Version  - 2.7.2
 
-Things you may want to cover:
+Rails Version - 6.1
 
-* Ruby version
+PostgreSql - 13.2 for Windows
 
-* System dependencies
+# Steps to Run the code
+Clone this repository in your system and open command line
 
-* Configuration
+Follow the following commands
 
-* Database creation
+```bundle install```
 
-* Database initialization
+```gem bundle install```
 
-* How to run the test suite
+```yarn install```
 
-* Services (job queues, cache servers, search engines, etc.)
+This will do the basic setup and install all the gem required. After this, setup your postgreSql in your system and keep it running on server.
 
-* Deployment instructions
+Edit the ```database.yml``` file in config folder according to your system and run following commands:
 
-* ...
+```rake dp:setup```
+
+Now, run rails server using:
+
+```rails s```
+
